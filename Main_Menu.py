@@ -1,7 +1,7 @@
 print("Welcome to the main menu! :)")
 print("1 = Bird-Algorithm.py")
-print("2 = Music.py")
-print("3 = Dice-Game.py")
+print("2 = Dice-Game.py")
+print("3 = ")
 print("4 = ")
 print("5 = ")
 print("6 = ")
@@ -16,10 +16,10 @@ match x:
         with open("Bird-Algorithm.py") as hello:
             exec(hello.read())
     case 2:
-        with open("Music.py") as hello:
+        with open("Dice-Game.py") as hello:
             exec(hello.read())
     case 3:
-        with open("Dice-Game.py") as hello:
+        with open("oops.py") as hello:
             exec(hello.read())
     case 4:
         with open("oops.py") as hello:
