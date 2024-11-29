@@ -2,7 +2,7 @@ print("Welcome to the main menu! :)")
 print("1 = Bird-Algorithm.py")
 print("2 = Dice-Game.py")
 print("3 = Juggling-Problem.py")
-print("4 = ")
+print("4 = Time-Traveler-Portal-Tracker.py")
 print("5 = ")
 print("6 = ")
 print("7 = ")
@@ -22,7 +22,7 @@ match x:
         with open("Juggling-Problem.py") as hello:
             exec(hello.read())
     case 4:
-        with open("oops.py") as hello:
+        with open("Time-Traveler-Portal-Tracker.py") as hello:
             exec(hello.read())
     case 5:
         with open("oops.py") as hello:
