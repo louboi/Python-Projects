@@ -1,11 +1,3 @@
-'''
-| need | Add
-| need | Remove
-| need | Capacity
-| need | Manage the line
-| need | 
-'''
-
 class TimeTravelerQueue:
     def __init__(self, capacity):
         self.queue = [None] * capacity
