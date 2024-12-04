@@ -7,21 +7,13 @@ class queue:
         self.rear = -1               # Index of the last item
         self.size = 0                # Number of items in the queue
 
-    # Check if the queue is empty
-    def is_empty(queue_data):
-        return queue_data["size"] == 0
-
-    # Check if the queue is full
-    def is_full(queue_data):
-        return queue_data["size"] == queue_data["capacity"]
-
     # Display the queue
     def display_queue(queue_data):
         print("Current Queue:", queue_data["queue"])
 
     # Add an item to the rear of the queue
     def enqueue(queue_data, item):
-        if is_full(queue_data):
+        if queue_data["size"] == queue_data["capacity"]:
             print("Queue is full! Cannot add more time travelers.")
             return None
         queue_data["rear"] = (queue_data["rear"] + 1) % queue_data["capacity"]  # Wrap around
@@ -31,7 +23,7 @@ class queue:
 
     # Remove an item from the front of the queue
     def dequeue(queue_data):
-        if is_empty(queue_data):
+        if queue_data["size"] == 0:
             print("Queue is empty! No time travelers to remove.")
             return None
 
