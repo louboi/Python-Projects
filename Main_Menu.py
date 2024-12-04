@@ -13,28 +13,28 @@ x = int(input("What project do you want: "))
 
 match x:
     case 1:
-        with open("Bird-Algorithm.py") as hello:
+        with open("Procedural/Bird-Algorithm.py") as hello:
             exec(hello.read())
     case 2:
-        with open("Dice-Game.py") as hello:
+        with open("Procedural/Dice-Game.py") as hello:
             exec(hello.read())
     case 3:
-        with open("Juggling-Problem.py") as hello:
+        with open("Procedural/Juggling-Problem.py") as hello:
             exec(hello.read())
     case 4:
-        with open("OOP/Time-Traveler-Portal-Tracker.py") as hello:
+        with open("Object-Orientated/Time-Traveler-Portal-Tracker.py") as hello:
             exec(hello.read())
     case 5:
-        with open("OOP/Class-Example.py") as hello:
+        with open("Object-Orientated/Class-Example.py") as hello:
             exec(hello.read())
     case 6:
-        with open("OOP/fish.py") as hello:
+        with open("Object-Orientated/fish.py") as hello:
             exec(hello.read())
     case 7:
-        with open("OOP/Queues.py") as hello:
+        with open("Object-Orientated/Queues.py") as hello:
             exec(hello.read())
     case 8:
-        with open("OOP/car.py") as hello:
+        with open("Object-Orientated/car.py") as hello:
             exec(hello.read())
     case 9:
         with open("oops.py") as hello:
