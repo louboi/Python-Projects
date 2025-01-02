@@ -1,1 +1,1 @@
-print("There is nothing here you uneducated baboon. :(")
+print("There is nothing here you uneducated baboon.")
