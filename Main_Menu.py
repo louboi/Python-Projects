@@ -7,7 +7,7 @@ print("5 = Class-Example.py")
 print("6 = fish.py")
 print("7 = Queues.py")
 print("8 = car.py")
-print("9 = ")
+print("9 = list.py")
 print("10 = ")
 x = int(input("What project do you want: "))
 
@@ -37,7 +37,7 @@ match x:
         with open("Object-Orientated/car.py") as hello:
             exec(hello.read())
     case 9:
-        with open("oops.py") as hello:
+        with open("Procedural/list.py") as hello:
             exec(hello.read())
     case 10:
         with open("oops.py") as hello:
