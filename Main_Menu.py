@@ -8,7 +8,7 @@ print("6 = fish.py")
 print("7 = Queues.py")
 print("8 = car.py")
 print("9 = list.py")
-print("10 = ")
+print("10 = Dictionary.py")
 x = int(input("What project do you want: "))
 
 match x:
