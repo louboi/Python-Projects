@@ -9,6 +9,7 @@ print("7 = Queues.py")
 print("8 = car.py")
 print("9 = list.py")
 print("10 = Dictionary.py")
+print("11 = Complex-Numbers.py")
 x = int(input("What project do you want: "))
 
 match x:
@@ -40,7 +41,10 @@ match x:
         with open("Procedural/list.py") as hello:
             exec(hello.read())
     case 10:
-        with open("oops.py") as hello:
+        with open("Procedural/Dictionary.py") as hello:
+            exec(hello.read())
+    case 11:
+        with open("Procedural/Complex-Numbers.py") as hello:
             exec(hello.read())
     case _:
         print("Deleting System32 ....")
